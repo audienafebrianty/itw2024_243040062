@@ -10,6 +10,9 @@ h1 {
   font-size: 60px;
   color: darkblue;
 }
+h3 a {
+  color: indigo;
+}
 h4 {
   text-align: right;
   font-style: italic;

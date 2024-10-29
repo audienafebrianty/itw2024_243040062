@@ -1,8 +1,8 @@
 body {
-  background-image: url(../img/background.png);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(background.png);
   background-repeat: repeat-x;
   background-color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 p {
   text-align: justify;
