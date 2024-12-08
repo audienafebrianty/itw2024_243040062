@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainbake</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="h2">Rainbake</h2>
+          <p class="sub-heading">Eclair & Cheese Cake</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 90K</h4>
+          <p class="item">Eclair</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 70K</h4>
+          <p class="item">Cheese Cake</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Rainbake <menu></menu></h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">👩🏻‍🍳</div>
+          <h3>Layanan Pelanggan</h3>
+          <p>
+            Rasakan pelayanan istimewa dari tim Customer Service kami yang
+            selalu siap mendukung dan membantu dengan sepenuh hati!
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🚛</div>
+          <h3>Pengiriman Antar Kota</h3>
+          <p>
+            Layanan pengiriman antar kota dari Rainbake memastikan Anda bisa
+            menikmati kelezatan kue pilihan kami, kapan saja dan di mana saja di
+            seluruh Indonesia!
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🍰</div>
+          <h3>Pengiriman Kue</h3>
+          <p>
+            Layanan pengantaran eksklusif dari kurir berpengalaman Rainbake
+            memastikan setiap kue Anda tiba dengan aman dan sempurna di tujuan.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">🎟️</div>
+          <h3>Promo</h3>
+          <p>
+            Nikmati promo spesial dari Rainbake! Jangan lewatkan kesempatan ini
+            untuk membawa pulang kue-kue lezat dengan harga lebih hemat. Yuk,
+            segera kunjungi Rainbake dan manjakan lidah Anda!
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/1.jpg" alt="Gambar 1" />
+        <img src="img/2.jpg" alt="Gambar 2" />
+        <img src="img/3.jpg" alt="Gambar 3" />
+        <img src="img/4.jpg" alt="Gambar 4" />
+        <img src="img/5.jpg" alt="Gambar 5" />
+        <img src="img/6.jpg" alt="Gambar 6" />
+        <img src="img/7.jpg" alt="Gambar 7" />
+        <img src="img/8.jpg" alt="Gambar 8" />
+        <img src="img/9.jpg" alt="Gambar 9" />
+        <img src="img/10.jpg" alt="Gambar 10" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
